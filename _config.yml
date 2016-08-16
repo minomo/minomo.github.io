@@ -1,0 +1,13 @@
+title: Rippling web - Framework of open automation 
+description: 
+sitename: Rippling web
+baseurl: ''
+sass:
+  sass_dir: /assets/_sass
+  style: :compressed
+collections:
+  - features
+exclude:
+  - README.md
+  - LICENSE
+
