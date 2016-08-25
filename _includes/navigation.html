@@ -13,11 +13,11 @@
 
     <div id='menu'>
       <ul>
-        {% for feature in site.features %}
-        <li>
-          <a href='#{{ feature.id }}'>{{ feature.name }}</a>
+{% for pg in site.html_pages %}
+        <li{% if pg.linkname == page.linkname %} class="active"{% endif %}>
+          <a{% if pg.linkname != page.linkname %} href='/{{ pg.name }}'{% endif %}>{{ pg.linkname }}</a>
         </li>
-        {% endfor %}
+{% endfor %}
       </ul>
     </div>
 

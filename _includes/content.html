@@ -1,0 +1,20 @@
+{% include header.html %}
+
+<div class="container">
+  <main>
+    {% for feature in {{include.param}} %}
+      <hr id='{{ feature.id }}'>
+
+      <section>
+    {% if feature.image %}
+        <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}'>
+    {% endif %}
+        <h2>{{ feature.heading }}</h2>
+        <div class='lead'>{{ feature.content }}</div>
+      </section>
+    {% endfor %}
+
+    <hr>
+  </main>
+  {% include footer.html %}
+</div>

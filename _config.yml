@@ -1,13 +1,13 @@
-title: Rippling web - Framework of open automation 
-description: 
-sitename: Rippling web
+sitename: Ondulation
 baseurl: ''
 sass:
   sass_dir: /assets/_sass
   style: :compressed
 collections:
   - features
+  - examples
 exclude:
   - README.md
   - LICENSE
+  - "*.BAK"
 
