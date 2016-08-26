@@ -1,6 +1,12 @@
 header {
   display: block;
   width: 100%;
+
+  h2 {
+    color: #d8d8d8;
+  }
+}
+header.website {
   text-align: center;
   background: url('/images/header.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -11,13 +17,12 @@ header {
   .headline { padding: 120px 0; }
 
   h1 {
-    font-size: 130px;
     color: #f9f9f9;
+    font-size: 130px;
   }
 
   h2 {
     font-size: 77px;
-    color: #ddd;
   }
 
   @media(max-width:1200px) {
@@ -40,4 +45,6 @@ header {
     h1 { font-size: 60px; }
     h2 { font-size: 30px; }
   }
+}
+header.article {
 }
