@@ -1,5 +1,5 @@
 sitename: Ondulation
-baseurl: ''
+siteurl: 'https://ondulation.github.io'
 sass:
   sass_dir: /assets/_sass
   style: :compressed
@@ -10,4 +10,3 @@ exclude:
   - README.md
   - LICENSE
   - "*.BAK"
-
