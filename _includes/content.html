@@ -3,7 +3,7 @@
     {% for feature in {{include.param}} %}
       <hr id='{{ feature.id }}'>
 
-      <section>
+      <section lang="{{ feature.lang }}">
     {% if feature.image %}
         <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}'>
     {% endif %}
@@ -13,6 +13,11 @@
     {% endfor %}
 
     <hr>
+
+    <ul class="language-selector">
+      <li><a lang="en">English</a></li>
+      <li><a lang="ja">日本語</a></li>
+    </ul>
   </main>
   {% include footer.html %}
 </div>

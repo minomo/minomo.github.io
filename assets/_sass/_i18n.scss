@@ -1,0 +1,13 @@
+section[lang] {display: none;}
+section[lang=en] {display: block;}
+
+.language-selector {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.language-selector li {
+  display: inline-block;
+  margin: 0 1em;
+}
