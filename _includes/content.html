@@ -1,7 +1,7 @@
 <div class="container">
   <main>
     {% for feature in {{include.param}} %}
-      <hr id='{{ feature.id }}'>
+      <hr id='{{ feature.id }}' lang="{{ feature.lang }}">
 
       <section lang="{{ feature.lang }}">
     {% if feature.image %}

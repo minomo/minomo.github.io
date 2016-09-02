@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description }}">
 
-  <title>{{ page.title }}</title>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.sitename }}</title>
 
   <meta property="og:type" content="{% if page.linkname == 'Home' %}website{% else %}article{% endif %}"/>
-  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.sitename }}">
   <meta property="og:description" content="{{ page.description }}">
   <meta property="og:url" content="{{ site.siteurl }}{{ page.url }}">
   <meta property="og:site_name" content="{{ site.sitename }}">

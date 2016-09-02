@@ -1,5 +1,5 @@
-sitename: Ondulation
-siteurl: 'https://ondulation.github.io'
+sitename: Minomo
+siteurl: 'https://minomo.github.io'
 sass:
   sass_dir: /assets/_sass
   style: :compressed

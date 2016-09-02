@@ -1,5 +1,7 @@
 section[lang] {display: none;}
 section[lang=en] {display: block;}
+hr[lang] {display: none;}
+hr[lang=en] {display: block;}
 
 .language-selector {
   list-style: none;
