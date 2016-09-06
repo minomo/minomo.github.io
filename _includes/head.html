@@ -6,7 +6,7 @@
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.sitename }}</title>
 
-  <meta property="og:type" content="{% if page.linkname == 'Home' %}website{% else %}article{% endif %}"/>
+  <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.sitename }}">
   <meta property="og:description" content="{{ page.description }}">
   <meta property="og:url" content="{{ site.siteurl }}{{ page.url }}">
