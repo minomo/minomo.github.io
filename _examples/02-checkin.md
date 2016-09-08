@@ -1,5 +1,5 @@
 ---
-heading: Check-In benefit 
+heading: Check-In
 lang: en
 ---
 
