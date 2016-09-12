@@ -1,7 +1,12 @@
 <div class="container">
   <main>
     {% for feature in {{include.param}} %}
-      <hr{% if feature.section %} id="{{ feature.section }}"{% endif %}>
+    {% if feature.section %}
+      <hr id="{{ feature.section }}">
+      <h1>{{ feature.section }}</h1>
+    {% else %}
+      <hr>
+    {% endif %}
 
       <section>
     {% if feature.image %}
