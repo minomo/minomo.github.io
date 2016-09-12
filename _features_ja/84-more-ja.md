@@ -1,5 +1,5 @@
 ---
-heading: More uses
+heading: アイデア次第で何にでも
 lang: ja
 ---
  これらの例以外にも、{{site.sitename}}が様々な目的のために使用されるようになるのが楽しみです。あなたもそこに加わりませんか？

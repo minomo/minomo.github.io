@@ -1,9 +1,9 @@
 <div class="container">
   <main>
     {% for feature in {{include.param}} %}
-      <hr {% if feature.section %}id="{{ feature.section }}-{{ feature.lang }}" {% endif %}lang="{{ feature.lang }}">
+      <hr{% if feature.section %} id="{{ feature.section }}"{% endif %}>
 
-      <section lang="{{ feature.lang }}">
+      <section>
     {% if feature.image %}
         <img class="pull-right" src="{{ feature.image }}">
     {% endif %}
@@ -14,10 +14,6 @@
 
     <hr>
 
-    <ul class="language-selector">
-      <li><a lang="en">English</a></li>
-      <li><a lang="ja">日本語</a></li>
-    </ul>
   </main>
   {% include footer.html %}
 </div>

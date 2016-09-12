@@ -1,5 +1,5 @@
 ---
-heading: Notifications based on the interest
+heading: 通知のフィルタリング
 image: images/feature_02.png
 lang: ja
 ---

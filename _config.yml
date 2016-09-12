@@ -5,7 +5,7 @@ sass:
   style: :compressed
 collections:
   - features
-  - examples
+  - features_ja
 exclude:
   - README.md
   - LICENSE
