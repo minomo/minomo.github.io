@@ -1,6 +1,7 @@
 ---
 heading: 汎用アプリ
 image: images/example_00.png
+section: Examples
 lang: ja
 ---
  この仕様に基づくあらゆるビーコンからの信号を処理することができる汎用アプリを提供するのはよい考えです。

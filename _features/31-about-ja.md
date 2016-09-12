@@ -1,5 +1,6 @@
 ---
 lang: ja
+section: About
 ---
  {{ site.sitename }}は、様々なビーコン・デバイスと様々なサービスをオープンに繋ぐための規格です。
 

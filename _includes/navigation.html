@@ -13,11 +13,10 @@
 
     <div id='menu'>
       <ul>
-{% assign sorted_pages = site.html_pages | sort: 'order' %}
-{% for p in sorted_pages %}
-        <li{% if p.url == page.url %} class="active"><a{% else %}><a href="{{ p.url }}"{% endif %}>
-          {% if p.title %}{{ p.title }}{% else %}Home{% endif %}
-        </a></li>
+{% for feature in site.features %}
+    {% if feature.section %}
+        <li lang="{{ feature.lang }}"><a href="#{{ feature.section }}-{{ feature.lang }}">{{ feature.section }}</a></li>
+    {% endif %}
 {% endfor %}
       </ul>
     </div>
